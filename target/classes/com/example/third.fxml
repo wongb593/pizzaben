@@ -4,30 +4,47 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
-
+<?import javafx.scene.text.Font?>
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label text="Meats" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <Label text="Veggies" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
-      <Label text="Label" />
-      <Button mnemonicParsing="false" text="Next" />
+      <Label text="Meats" translateX="70.0" translateY="20.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" onAction="#display" text="Pepperoni" translateX="50.0" translateY="30.0" />
+      <Label text="Cost: $1.75 Cal: 80" translateX="50.0" translateY="30.0" />
+      <CheckBox mnemonicParsing="false" text="Ham" translateX="50.0" translateY="65.0" />
+      <Label text="Cost: $2.00 Cal: 120" translateX="50.0" translateY="65.0" />
+      <CheckBox mnemonicParsing="false" text="Sausage" translateX="50.0" translateY="100.0" />
+      <Label text="Cost: $2.00 Cal: 150" translateX="50.0" translateY="100.0" />
+      <CheckBox mnemonicParsing="false" text="Chicken" translateX="50.0" translateY="135.0" />
+      <Label text="Cost: $2.25 Cal: 180" translateX="50.0" translateY="135.0" />
+      <Label text="Veggies" translateX="290.0" translateY="-150.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" text="Green Pepper" translateX="275.0" translateY="-140.0" />
+      <Label text="Cost: $1.25 Cal: 20" translateX="275.0" translateY="-140.0" />
+      <CheckBox mnemonicParsing="false" text="Mushroom" translateX="275.0" translateY="-105.0" />
+      <Label text="Cost: $1.50 Cal: 30" translateX="275.0" translateY="-105.0" />
+      <CheckBox mnemonicParsing="false" text="Black Olive" translateX="275.0" translateY="-70.0" />
+      <Label text="Cost: $1.00 Cal: 50" translateX="275.0" translateY="-70.0" />
+      <CheckBox mnemonicParsing="false" text="Onion" translateX="275.0" translateY="-35.0" />
+      <Label text="Cost: $1.25 Cal: 40" translateX="275.0" translateY="-35.0" />
+      <CheckBox mnemonicParsing="false" text="Spinach" translateX="275.0" />
+      <Label text="Cost: $1.50 Cal: 20" translateX="275.0" />
+      <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="111.0" text="Next" translateX="443.0" translateY="-30.0" />
+      <Label text="Cost of Order" translateX="425.0" translateY="-380.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label text="Sum:" translateX="457.0" translateY="-125.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label text="Base: Cheese Pizza + $9.50" translateX="430.0" translateY="-170.0" />
    </children>
 </VBox>

@@ -12,7 +12,7 @@
       <Button fx:id="primaryButton" onAction="#switchToSecondary" prefHeight="80.0" prefWidth="150.0" text="Order Pizza" translateX="-175.0" translateY="-160.0" />
       <Label prefHeight="18.0" prefWidth="160.0" text="Select to order either a preset" translateX="-175.0" translateY="-170.0" />
       <Label text="or custom pizza" translateX="-175.0" translateY="-190.0" />
-      <Label text="Select to Order Drink" translateX="175.0" translateY="-245.0" />
+      <Label text="Select to Order Water" translateX="175.0" translateY="-245.0" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

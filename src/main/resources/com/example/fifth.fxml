@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+      <Label text="Order Confirmed" translateX="175.0" translateY="-350.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label text="Order for:" translateX="100.0" translateY="-340.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label text="Cost:" translateX="110.0" translateY="-335.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label text="Calories" translateX="100.0" translateY="-330.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label text="What was Chosen" translateX="400.0" translateY="-425.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
