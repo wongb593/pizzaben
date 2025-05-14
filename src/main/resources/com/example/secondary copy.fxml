@@ -13,44 +13,68 @@
     <children>
       <Label text="Preset Pizzas" translateX="150.0" translateY="100.0">
          <font>
-            <Font size="20.0" />
+            <Font name="Franklin Gothic Demi" size="20.0" />
          </font>
          <graphic>
             <ImageView fitHeight="90.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@WhiteScreen.jpg" />
+                  <Image url="@CalicoArrow.png" />
                </image>
             </ImageView>
          </graphic>
       </Label>
-        <Button fx:id="secondaryButton" onAction="#switchToPrimary" prefHeight="36.0" prefWidth="122.0" scaleX="2.0" scaleY="2.0" text="Custom Order Pizza" translateX="150.0" translateY="135.0" />
-      <Label text="Choose from 4 meats" translateX="150.0" translateY="130.0" />
-      <Label text="and 5 veggies" translateX="150.0" translateY="110.0" />
+        <Button fx:id="secondaryButton" onAction="#switchToPrimary" prefHeight="36.0" prefWidth="122.0" scaleX="2.0" scaleY="2.0" text="Custom Order Pizza" translateX="150.0" translateY="135.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="12.0" />
+         </font></Button>
+      <Label text="Choose from 4 meats" translateX="150.0" translateY="130.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <Label text="and 5 veggies" translateX="150.0" translateY="110.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
       <CheckBox mnemonicParsing="false" text="Cheese Pizza" translateX="-215.0" translateY="-100.0">
          <font>
-            <Font size="15.0" />
+            <Font name="Arial Rounded MT Bold" size="15.0" />
          </font>
       </CheckBox>
       <CheckBox mnemonicParsing="false" text="Meatlover" translateX="-224.0" translateY="-60.0">
          <font>
-            <Font size="15.0" />
+            <Font name="Arial Rounded MT Bold" size="15.0" />
          </font>
       </CheckBox>
       <CheckBox mnemonicParsing="false" text="Veggie Pizza" translateX="-216.0" translateY="-20.0">
          <font>
-            <Font size="15.0" />
+            <Font name="Arial Rounded MT Bold" size="15.0" />
          </font>
       </CheckBox>
       <CheckBox mnemonicParsing="false" text="Pepperoni" translateX="-224.0" translateY="20.0">
          <font>
-            <Font size="15.0" />
+            <Font name="Arial Rounded MT Bold" size="15.0" />
          </font>
       </CheckBox>
-        <Label text="\$9.50,  Calories: 1340, Contains: Milk" translateX="-190.0" translateY="-243.0" />
-      <Label text="\$15.99, Calories: 2090, Contains: Milk" translateX="-188.0" translateY="-199.0" />
-      <Label text="\$12.50,  Calories: 1540, Contains: Milk" translateX="-188.0" translateY="-155.0" />
-      <Label text="\$10.25, Calories: 1570, Contains: Milk " translateX="-188.0" translateY="-111.0" />
-      <Button fx:id="secondaryButton1" onAction="#switchToPrimary" prefHeight="26.0" prefWidth="62.0" scaleX="2.0" scaleY="2.0" text="Next" translateX="150.0" translateY="-190.0" />
+        <Label text="\$9.50, Calories: 1340, Contains: Milk" translateX="-190.0" translateY="-243.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <Label text="\$15.99, Calories: 2090, Contains: Milk" translateX="-188.0" translateY="-197.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <Label text="\$12.50,  Calories: 1540, Contains: Milk" translateX="-188.0" translateY="-151.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <Label text="\$10.25, Calories: 1570, Contains: Milk " translateX="-188.0" translateY="-105.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <Button fx:id="secondaryButton1" onAction="#switchToPrimary" prefHeight="26.0" prefWidth="62.0" scaleX="2.0" scaleY="2.0" text="Next" translateX="150.0" translateY="-160.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="12.0" />
+         </font></Button>
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
