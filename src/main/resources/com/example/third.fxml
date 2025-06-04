@@ -10,41 +10,98 @@
    <children>
       <Label text="Meats" translateX="70.0" translateY="20.0">
          <font>
-            <Font size="20.0" />
+            <Font name="Franklin Gothic Demi" size="20.0" />
          </font></Label>
-      <CheckBox mnemonicParsing="false" onAction="#display" text="Pepperoni" translateX="50.0" translateY="30.0" />
-      <Label text="Cost: $1.75 Cal: 80" translateX="50.0" translateY="30.0" />
-      <CheckBox mnemonicParsing="false" text="Ham" translateX="50.0" translateY="65.0" />
-      <Label text="Cost: $2.00 Cal: 120" translateX="50.0" translateY="65.0" />
-      <CheckBox mnemonicParsing="false" text="Sausage" translateX="50.0" translateY="100.0" />
-      <Label text="Cost: $2.00 Cal: 150" translateX="50.0" translateY="100.0" />
-      <CheckBox mnemonicParsing="false" text="Chicken" translateX="50.0" translateY="135.0" />
-      <Label text="Cost: $2.25 Cal: 180" translateX="50.0" translateY="135.0" />
-      <Label text="Veggies" translateX="290.0" translateY="-150.0">
+      <CheckBox mnemonicParsing="false" onAction="#display" text="Pepperoni" translateX="50.0" translateY="50.0">
          <font>
-            <Font size="20.0" />
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $1.75 Cal: 80" translateX="50.0" translateY="50.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
          </font></Label>
-      <CheckBox mnemonicParsing="false" text="Green Pepper" translateX="275.0" translateY="-140.0" />
-      <Label text="Cost: $1.25 Cal: 20" translateX="275.0" translateY="-140.0" />
-      <CheckBox mnemonicParsing="false" text="Mushroom" translateX="275.0" translateY="-105.0" />
-      <Label text="Cost: $1.50 Cal: 30" translateX="275.0" translateY="-105.0" />
-      <CheckBox mnemonicParsing="false" text="Black Olive" translateX="275.0" translateY="-70.0" />
-      <Label text="Cost: $1.00 Cal: 50" translateX="275.0" translateY="-70.0" />
-      <CheckBox mnemonicParsing="false" text="Onion" translateX="275.0" translateY="-35.0" />
-      <Label text="Cost: $1.25 Cal: 40" translateX="275.0" translateY="-35.0" />
-      <CheckBox mnemonicParsing="false" text="Spinach" translateX="275.0" />
-      <Label text="Cost: $1.50 Cal: 20" translateX="275.0" />
-      <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="111.0" text="Next" translateX="443.0" translateY="-30.0" />
-      <Label text="Cost of Order" translateX="425.0" translateY="-380.0">
+      <CheckBox mnemonicParsing="false" text="Ham" translateX="50.0" translateY="85.0">
          <font>
-            <Font size="25.0" />
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $2.00 Cal: 120" translateX="50.0" translateY="85.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" text="Sausage" translateX="50.0" translateY="120.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $2.00 Cal: 150" translateX="50.0" translateY="120.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" text="Chicken" translateX="50.0" translateY="155.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $2.25 Cal: 180" translateX="50.0" translateY="155.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <Label text="Veggies" translateX="290.0" translateY="-130.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" text="Green Pepper" translateX="275.0" translateY="-120.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $1.25 Cal: 20" translateX="275.0" translateY="-120.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" text="Mushroom" translateX="275.0" translateY="-85.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $1.50 Cal: 30" translateX="275.0" translateY="-85.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" text="Black Olive" translateX="275.0" translateY="-50.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $1.00 Cal: 50" translateX="275.0" translateY="-50.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" text="Onion" translateX="275.0" translateY="-15.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $1.25 Cal: 40" translateX="275.0" translateY="-15.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <CheckBox mnemonicParsing="false" text="Spinach" translateX="275.0" translateY="20.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></CheckBox>
+      <Label text="Cost: $1.50 Cal: 20" translateX="275.0" translateY="20.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
+      <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="111.0" text="Next" translateX="443.0" translateY="10.0" />
+      <Label text="Cost of Order" translateX="425.0" translateY="-340.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="25.0" />
          </font>
       </Label>
-      <Label text="Sum:" translateX="457.0" translateY="-125.0">
+      <Label text="Sum:" translateX="457.0" translateY="-75.0">
          <font>
-            <Font size="18.0" />
+            <Font name="Arial Rounded MT Bold" size="18.0" />
          </font>
       </Label>
-      <Label text="Base: Cheese Pizza + $9.50" translateX="430.0" translateY="-170.0" />
+      <Label text="Base: Cheese Pizza + $9.50" translateX="430.0" translateY="-110.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="12.0" />
+         </font></Label>
    </children>
 </VBox>
